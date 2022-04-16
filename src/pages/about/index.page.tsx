@@ -1,4 +1,5 @@
 import React from "react";
+import Sound from "./Sound";
 import "./index.css";
 
 export { Page };
@@ -7,7 +8,8 @@ function Page() {
   return (
     <>
       <h1>About</h1>
-      <p>A colored page.</p>
+      <p>Csound Example page.</p>
+      <Sound />
     </>
   );
 }
